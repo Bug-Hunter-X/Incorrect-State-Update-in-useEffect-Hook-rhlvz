@@ -1,0 +1,2 @@
+# Incorrect State Update in useEffect Hook
+This example demonstrates a common mistake in React where the state variable is directly modified inside the useEffect hook. This leads to unexpected behavior because the component does not re-render correctly. The solution shows the correct way to update state using the setter function provided by useState.
